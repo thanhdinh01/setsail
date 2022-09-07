@@ -28,7 +28,6 @@
     />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/modal.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
@@ -578,11 +577,84 @@
               </div>
             </li>
             <li class="navbar__option-item navbar__option-search">
-              <i class="navbar__option-search-icon ti-search"></i>
+              <i
+                class="navbar__option-search-icon fa-solid fa-magnifying-glass"
+              ></i>
             </li>
             <li class="navbar__option-item navbar__option-menu">
               <!-- sidebar -->
-              <i class="navbar__menu-icon fa-solid fa-bars"></i>
+              <i class="fa-solid fa-bars"></i>
+              <div class="navbar__sidebar-wrap">
+                <label
+                  for="navbar__option-sidebar "
+                  class="navbar__sidebar--toggle"
+                >
+                </label>
+                <div class="navbar__sidebar--toggle">
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="navbar__sidebar">
+                  <div class="navbar__sidebar-logo">
+                    <img
+                      src="./assets/images/logo-white1.png "
+                      alt=" "
+                      class="navbar__sidebar-logo--setsail"
+                    />
+                    <img
+                      src="./assets/images/img-sidebar.png "
+                      alt=" "
+                      class="navbar__sidebar-title"
+                    />
+                  </div>
+                  <div class="navbar__sidebar-map">
+                    <a href="# " class="navbar__sidebar-map-link">
+                      <img
+                        src="./assets/images/map-sidebar.jpg "
+                        alt=" "
+                        class="navbar__sidebar-map-img"
+                      />
+                    </a>
+                    <p class="navbar__sidebar-map-title">
+                      Lorem ipsum dolor sit amet, consectetuer adipis cing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      theme natoque
+                    </p>
+                  </div>
+                  <div class="navbar__sidebar-search">
+                    <h4 class="navbar__sidebar-search-heading">
+                      Find Your Destination
+                    </h4>
+                    <div class="navbar__sidebar-search-input">
+                      <input
+                        type="text "
+                        name=" "
+                        id=" "
+                        placeholder="Search... "
+                      />
+                      <button class="navbar__sidebar-search-btn">
+                        <i class="ti-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="navbar__sidebar-social">
+                    <h4 class="navbar__sidebar-social-heading">Follow Me</h4>
+                    <div class="navbar__sidebar-social-contact">
+                      <a href="# " class="navbar__sidebar-social-icon">
+                        <i class="ti-twitter-alt"></i>
+                      </a>
+                      <a href="# " class="navbar__sidebar-social-icon">
+                        <i class="ti-pinterest"></i>
+                      </a>
+                      <a href="# " class="navbar__sidebar-social-icon">
+                        <i class="ti-facebook"></i>
+                      </a>
+                      <a href="# " class="navbar__sidebar-social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -2085,81 +2157,5 @@
       </footer>
       <a href="# " class="back-home">TOP</a>
     </div>
-
-    <!-- navbar menu wrap -->
-    <div class="navbar__sidebar-wrap">
-      <div class="navbar__sidebar--toggle">
-        <i class="fa-solid fa-xmark"></i>
-      </div>
-      <div class="navbar__sidebar">
-        <div class="navbar__sidebar-logo">
-          <img
-            src="./assets/images/logo-white1.png "
-            alt=" "
-            class="navbar__sidebar-logo--setsail"
-          />
-          <img
-            src="./assets/images/img-sidebar.png "
-            alt=" "
-            class="navbar__sidebar-title"
-          />
-        </div>
-        <div class="navbar__sidebar-map">
-          <a href="# " class="navbar__sidebar-map-link">
-            <img
-              src="./assets/images/map-sidebar.jpg "
-              alt=" "
-              class="navbar__sidebar-map-img"
-            />
-          </a>
-          <p class="navbar__sidebar-map-title">
-            Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque
-          </p>
-        </div>
-        <div class="navbar__sidebar-search">
-          <h4 class="navbar__sidebar-search-heading">Find Your Destination</h4>
-          <div class="navbar__sidebar-search-input">
-            <input type="text " name=" " id=" " placeholder="Search... " />
-            <button class="navbar__sidebar-search-btn">
-              <i class="ti-search"></i>
-            </button>
-          </div>
-        </div>
-        <div class="navbar__sidebar-social">
-          <h4 class="navbar__sidebar-social-heading">Follow Me</h4>
-          <div class="navbar__sidebar-social-contact">
-            <a href="# " class="navbar__sidebar-social-icon">
-              <i class="ti-twitter-alt"></i>
-            </a>
-            <a href="# " class="navbar__sidebar-social-icon">
-              <i class="ti-pinterest"></i>
-            </a>
-            <a href="# " class="navbar__sidebar-social-icon">
-              <i class="ti-facebook"></i>
-            </a>
-            <a href="# " class="navbar__sidebar-social-icon">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- navbar modal search -->
-    <div class="navbar__search-modal">
-      <div class="search-modal__close">
-        <i class="ti-close"></i>
-      </div>
-      <div class="search-modal__content">
-        <input
-          type="text"
-          class="search-modal__input"
-          placeholder="Search..."
-        />
-        <button class="search-modal__btn">FIND NOW</button>
-      </div>
-    </div>
-    <!-- Javascript -->
-    <script src="./js/app.js"></script>
   </body>
 </html>

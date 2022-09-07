@@ -492,7 +492,7 @@ body {
   font-size: 2.5rem;
 }
 .navbar__option-search i {
-  pointer-events: none;
+  pointer-events: no;
 }
 .navbar__option-search-link {
   cursor: pointer;
