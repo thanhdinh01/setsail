@@ -1907,17 +1907,7 @@ body {
   transition: 0.4s;
 }
 
-/* Responsive
-=
-=
-=
-*/
-@media screen and (min-width: 1025px) {
-  .section2__video {
-    width: 1000px;
-    margin: 0 auto;
-  }
-}
+/* Responsive */
 @media screen and (max-width: 1024px) {
   .grid {
     width: 768px;
@@ -2290,8 +2280,5 @@ body {
   }
   .navbar__mobile-list {
     width: 300px;
-  }
-  .section2__video {
-    height: 144px;
   }
 }
