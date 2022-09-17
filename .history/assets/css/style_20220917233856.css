@@ -311,7 +311,7 @@ body {
   font-size: 1.1rem;
 }
 
-.navbar__menu-drop-item:hover > .menu-drop__list-child {
+.navbar__menu-drop-item:hover .navbar .menu-drop__list-child {
   display: block;
   transform-origin: left 28%;
 }

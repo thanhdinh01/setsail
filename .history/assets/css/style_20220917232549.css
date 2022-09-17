@@ -311,12 +311,12 @@ body {
   font-size: 1.1rem;
 }
 
-.navbar__menu-drop-item:hover > .menu-drop__list-child {
+.navbar__menu-drop-item:hover .menu-drop__list-child {
   display: block;
   transform-origin: left 28%;
 }
 
-.navbar .menu-drop__list-child {
+.menu-drop__list-child {
   position: absolute;
   list-style: none;
   width: 100%;
